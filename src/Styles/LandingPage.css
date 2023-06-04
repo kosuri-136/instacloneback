@@ -1,0 +1,33 @@
+.landimg{
+    height: 450px;
+    margin-right: 100px;
+   
+   
+}
+.landing-page{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 550px;
+   
+}
+.text-right{
+    text-align: center;
+}
+.text-right p{
+    font-size: 50px;
+    color: #006238;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.text-right button{
+    font-size: 30px;
+    padding: 5px 8px;
+    border: 1px solid #006238;
+    border-radius: 12px;
+    color: #006238;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.text-right button:hover{
+    background-color: lightgreen;
+    cursor: pointer;
+}

@@ -1,0 +1,27 @@
+form{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+
+}
+.form{
+    border: 1px solid gray;
+    display: inline-block;
+    padding: 40px;
+    position: absolute;
+    left: 400px;
+    top: 200px;
+}
+.form input{
+    margin-bottom: 5px;
+}
+.btn{
+    width: 100px;
+    margin-top: 10px;
+    padding: 5px;
+    align-self: center;
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: lightskyblue;
+}
