@@ -25,8 +25,8 @@
 
 import React from "react";
 import { Link } from "react-router-dom";
-import lens from "../../Images/lens-1418954.png";
-import "../../Styles/LandingPage.css";
+import lens from "../Images/lens.png";
+import "../stylescss/landingpage.css";
 
 const LandingPage = () => {
   return (

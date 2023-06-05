@@ -1,6 +1,7 @@
+import React from 'react';
 import logo from "../../Images/icon.svg";
 import camera from "../../Images/camera.png";
-import "../../Styles/PostView.css";
+import "../../stylescss/header.css";
 import { Link } from "react-router-dom";
 // import React, { useState, useHistory } from "react";
 // import { navigate } from "react-router-dom";

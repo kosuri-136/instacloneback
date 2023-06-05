@@ -1,0 +1,72 @@
+
+.mainbox {
+    /* display:flex; */
+    margin-left: 415px;
+    /* padding-left: 350px; */
+    /* margin-left: 20x; */
+    padding-bottom: 20px;
+    padding-top: 10px;
+    margin-top: 10px;
+    margin-bottom: 23px;
+   height: 320px;
+   width: 445px;
+    border: 2px solid black;
+    border-radius: 15px;
+    /* display: flex; */
+    /* flex-direction: row; */
+    /* justify-content: left; */
+    
+  }
+  .topbox{
+    padding-bottom: 5px;
+    border-bottom: 1px solid black;
+    height: 50px;
+    padding-left: 7px;
+    /* align-items:end; */
+    /* align-items: start; */
+    justify-content: left;
+  }
+  .name{
+    padding-bottom: 8px;
+    font-weight: bold;
+    
+  
+  }
+  .middlebox{
+    /* padding-bottom: 1px; */
+    padding-left: 2px;
+    width: 440px;
+    height: 210px;
+    border-bottom: 1px solid black;
+    /* justify-content: wr; */
+  }
+  .middlebox .post-image {
+    object-fit: fill;
+    width: 100%;
+    height: 100%;
+  }
+  .bottombox{
+    /* display: flex; */
+    /* flex-direction: row; */
+    border-top: 1px solid black;
+    padding-bottom: 5px;
+    padding-top: 2px;
+    padding-left: 7px;
+    /* justify-content: space-between; */
+  }
+  .heart{
+    padding-right: 5px;
+  }
+  
+  .likedate{
+    padding-right: 5px;
+  }
+  .post-likes{
+    padding-right: 300px;
+  }
+  .post-description{
+    font-weight: bold;
+  }
+  /* .body{
+    width: 800px;
+  } */

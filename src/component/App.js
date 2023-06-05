@@ -48,19 +48,16 @@
 /////////////////////////////
 
 // App.js
-import React, { useState } from "react";
+import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import LandingPage from "./LandingPage/LandingPage";
-import PostView from "./PostView/PostView";
-import Form from "./Form/Form";
+import LandingPage from "./LandingPage";
+import PostView from "./PostView";
+import Form from "./Form";
 // import { useNavigate } from 'react-router-dom';
 
 
 function App() {
   // const [allData, setAllData] = useState([]); // Declare and initialize allData state
-
-
-
   return (
     <div className="app-wrapper">
       <BrowserRouter>
